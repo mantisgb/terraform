@@ -42,7 +42,7 @@ resource "azurerm_sql_server" "test" {
   location                     = azurerm_resource_group.test.location
   version                      = "12.0"
   administrator_login          = "houssem"
-  administrator_login_password = "h53iogfdhgfdioph3j4"
+  administrator_login_password = "h53iogf!&ADjHdhgfdioph3j4"
 }
 
 resource "azurerm_sql_database" "test" {
